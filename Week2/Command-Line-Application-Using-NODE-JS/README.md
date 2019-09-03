@@ -1,5 +1,3 @@
-# HackYourFuture Node.js Week 2 - Homework
-
 ## Assignment
 
 These are the specs for this week's assignment:
@@ -58,28 +56,6 @@ node index.js remove 2
 Removes all to-do items from the list:
 
 ```
-node index.js reset
-```
+node index.js reset``
 
-## Bonus assignment
 
-- Use JSON to store to-dos
-- Split each action (i.e. read, write, etc.) into a separate file
-- Use [commander](https://www.npmjs.com/package/commander) library to implement
-  command line interface
-
-Add following commands:
-
-### `update`
-
-Updates a to-do item with new text:
-
-```
-node index.js update 3 "Brush teeth"
-```
-
-### Things to consider
-
-- What representation you use in your file (CSV, TSV, JSON, etc).
-- Handle edge cases, i.e. control what happens if user enters unexpected input,
-  e.g. `remove -100`.
