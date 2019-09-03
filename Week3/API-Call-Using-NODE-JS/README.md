@@ -1,9 +1,5 @@
-# HackYourFuture Node.js Week 3 - Homework
 
 ### Assignment
-
-Read through the code from the lecture, make sure you understand the flow of the
-program.
 
 Add four more actions:
 
